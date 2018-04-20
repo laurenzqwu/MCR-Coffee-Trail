@@ -1,0 +1,767 @@
+div.container {
+    width: 100%;
+    border: none;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Headers*/
+
+header {
+    padding: 1.5em;
+    color: white;
+    line-height: 1.5;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 38px;
+    text-shadow: 0px 2px 0px #576829;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 5px;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    background-color: #576829;
+    border: 0;
+    padding: 13px 30px;
+    font-size: 1em;
+    text-align: center;
+}
+
+header2 {
+    text-align: center;
+    color: white;
+}
+
+
+/*Site Logo & Social Media Links*/
+
+.logo {
+    background-color: transparent;
+    float: left;
+    opacity: 0.8;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo:hover {
+    background-color: #576829;
+    cursor: pointer;
+}
+
+.logos {
+    background-color: transparent;
+    display: inline;
+    margin: 5px;
+    opacity: 1;
+}
+
+.logos:hover {
+    background-color: #576829;
+    color: white;
+}
+
+im {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.center {
+    text-align: center;
+    padding: inherit;
+}
+
+
+/* Navigation*/
+
+.page-nav {
+    overflow: hidden;
+    border-top: 1em;
+    background-color: black;
+}
+
+.page-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.page-nav ul li {
+    padding: 20px;
+    text-align: center;
+    border-top: solid;
+    border-color: #9d7d5c;
+    width: auto;
+}
+
+.page-nav ul li {
+    width: auto;
+    flex: 1;
+    font-family: 'Roboto Slab', serif;
+}
+
+.mySlides {
+    display: none
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 25px;
+    width: 25px;
+    padding: 0
+}
+
+.banner {
+    padding: 50px;
+    background-image: url(images/bcground.jpg);
+    max-width: 100%;
+}
+
+.banner img {
+    display: block;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.active {
+    background-color: #576829;
+}
+
+#navbar a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    flex-wrap: wrap;
+    margin: 0;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center
+}
+
+.page-nav ul :hover {
+    background-color: #576829;
+}
+
+.page-nav ul li+li {
+    border-left: 1px solid black;
+}
+
+@media only screen and (min-width: 500px) {
+    .page-nav ul {
+        flex-wrap: nowrap;
+        /* YOU MIGHT WANT TO REMOVE THIS OR CHANGE THE BREAKPOINT */
+    }
+    .page-nav ul li {
+        width: auto;
+        /* reset the width from earlier */
+        flex: 1;
+        /* to make each box take up the same amount of space */
+    }
+}
+
+
+/*@media only screen and (min-width: 500px) {
+    .content {
+        width: auto;
+        flex: 1;
+        flex-wrap: nowrap;
+    }
+
+}*/
+
+.shops img {
+    padding: 20px;
+}
+
+.shops {
+    padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 50%;
+    margin-left: 5px;
+}
+
+
+/*newpagenav*/
+
+
+/* Main Body / Content of the Page*/
+
+body {
+    position: relative;
+    background-color: #42501e;
+    padding-bottom: 6rem;
+    margin: 0px;
+    min-height: 10%
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+@media screen and (min-width: 820px) {
+    p {
+        width: 60%;
+    }
+}
+
+.text {
+    text-align: left;
+}
+
+.title {
+    background-color: #576829;
+    padding: 10px;
+}
+
+.tables {
+    overflow: hidden;
+    padding: 50px;
+    max-width: 100%;
+    margin-bottom: 45px;
+}
+
+.container {
+    border: none;
+}
+
+
+/* Homepage */
+
+.welcome {
+    background-color: #576829;
+    padding: 60px;
+}
+
+.welcome p {
+    text-shadow: none;
+}
+
+.TrailLink {
+    padding: 40px;
+    margin-bottom: 45px;
+}
+
+.TrailLink h2 {
+    color: White;
+    text-shadow: none;
+}
+
+.TrailLink p {
+    color: white;
+    text-shadow: none;
+    padding: 5px;
+}
+
+.TrailLink h1 {
+    background-color: #576829;
+    text-shadow: none;
+}
+
+.button1 {
+    display: inline-block;
+    /*width: 20%;*/
+    margin: 0 auto;
+    background-color: #576829;
+    border: 0;
+    padding: 13px 30px;
+    font-size: 1em;
+    text-align: center;
+    border: 2px solid #f4eceb;
+    border-radius: 0.2em;
+    margin-top: 20px;
+    transition: all 0.2s ease;
+}
+
+.button1:hover {
+    -ms-transform: scale(1.2);
+    /*IE 9 */
+    -webkit-transform: scale(1.2);
+    /*safari 3-8*/
+    transform: scale(1.2);
+    color: white;
+}
+
+.comment {
+    background-image: url("images/s1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.comment a:hover {
+    color: #576829;
+}
+
+.coffee {
+    border: solid;
+    border-width: 15px;
+    border-color: #f4eceb;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+.comment h2 {
+    padding: 20px;
+    align-content: center;
+}
+
+.container-content {
+    padding: 20px;
+    max-width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-content1 {
+    padding: 100px;
+    max-width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    border: 2px solid #f4eceb;
+    border-radius: 0.2rem;
+}
+
+
+/* About Us Page */
+
+.open {
+    padding: 50px;
+    margin-bottom: 45px;
+}
+
+.open h2 {
+    color: white;
+    text-shadow: none;
+}
+
+.open p {
+    color: white;
+    text-shadow: none;
+}
+
+.about-caption {
+    background-color: #303a15;
+    padding: 2px;
+    border: 20px solid #f4eceb;
+}
+
+
+/* Coffee Info Page */
+
+.drinkpg {
+    background: none;
+    max-width: 333px;
+    position: relative;
+    width: 100%;
+}
+
+.drinkpg p {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+}
+
+.drinkpg h2 {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.row {
+    padding: 10px;
+}
+
+@media screen and (min-width: 900px) {}
+
+@media screen and (min-width: 600px) {
+    .row {
+        /*display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;*/
+        display: flex;
+        /*-webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;*/
+        box-orient: horizontal;
+        flex-direction: row;
+        /*-webkit-box-pack: center;
+        -moz-box-pack: center;*/
+        box-pack: center;
+        justify-content: center;
+        /*-webkit-box-align: center;
+        -moz-box-align: center;*/
+        box-align: top;
+        align-items: top;
+    }
+}
+
+.Shoplink {
+    width: 100%;
+}
+
+.cell {
+    /*-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;*/
+    /*flex: 1 1 auto;*/
+    flex: 1 0 0;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #576829;
+    border: 2px solid #f4eceb;
+}
+
+.cell p {
+    width: 100%;
+}
+
+
+/*Images*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-caption {
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.image-gallery {
+    margin: 100px 0;
+    background: #847E7C;
+}
+
+@media screen and (min-width: 700px) {
+    .an-image {
+        background: none;
+        max-width: 333px;
+        border: solid;
+        border-width: 20px;
+        border-color: #f4eceb;
+        box-shadow: 2px 2px #422810;
+        margin-left: 10px;
+    }
+    .img {
+        padding: 20px;
+        font-size: 30px;
+        max-width: 100%;
+        height: auto;
+        text-align: right;
+        text-decoration: none;
+        margin: 5px 2px;
+        float: right;
+    }
+    .box {
+        padding: 50px;
+        margin-bottom: 45px;
+    }
+    .an-image:hover {
+        -ms-transform: scale(1.2);
+        /*IE 9 */
+        -webkit-transform: scale(1.2);
+        /*safari 3-8*/
+        transform: scale(1.2);
+    }
+}
+
+
+/* Coffee Shops Page */
+
+.Shoplink:hover {
+    -ms-transform: scale(1.2);
+    /*IE 9 */
+    -webkit-transform: scale(1.2);
+    /*safari 3-8*/
+    transform: scale(1.2);
+}
+
+.Shoplink {
+    background: none;
+    max-width: 333px;
+    position: relative;
+    width: 100%;
+}
+
+.Shoplink p {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+}
+
+.Shoplink h2 {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.link-caption {
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    max-width: 98%;
+    padding: 20px;
+    background: #576829;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border: 2px solid #f4eceb;
+    border-radius: 0.2rem;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 98%;
+    height: auto;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Shoplink:hover .overlay {
+    opacity: 1;
+}
+
+
+/* Form Field */
+
+.content {
+    margin-bottom: 45px;
+}
+
+#contact .contact-me-page {
+    margin-bottom: 45px;
+}
+
+label {
+    display: block;
+    padding-bottom: 0.2em;
+    padding-top: 1em;
+}
+
+input,
+textarea {
+    max-width: 100%;
+    padding: 0.35em;
+    font-size: 1.5em;
+    font-family: "arial", sans-serif;
+    border: 1px solid #bbb;
+    min-width: 100%;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    min-width: 0;
+    background-color: white;
+    border: 0;
+    border-radius: 0.2em;
+    padding: 13px 30px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #576829;
+}
+
+div1.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div1.gallery:hover {
+    border: 1px solid #576829;
+}
+
+div1.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div1.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+table,
+th,
+td {
+    border: none;
+    border-collapse: collapse;
+    margin: auto;
+    vertical-align: text-bottom;
+}
+
+table {
+    overflow-x: hidden;
+    margin-bottom: 45px;
+}
+
+th,
+td {
+    margin: 10px;
+    color: transparent;
+    padding: 20px;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+td {
+    padding: 20px;
+}
+
+
+/* Map */
+
+iframe {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-bottom: 45px;
+    padding: 2px;
+    background-color: #303a15;
+    border: 20px solid #f4eceb;
+    width: 100%;
+}
+
+
+/* Footer */
+
+.footer a {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: #303a15;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+
+/* Links */
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.top {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.skiplinks {
+    margin-bottom: 45px;
+}
